@@ -70,8 +70,8 @@ Some sections require internal tools:
 | Section | Requires |
 |---|---|
 | Shopify Engineering Blog | Web search (built in) |
-| Internal references (Vault) | [Vault MCP](https://vault.shopify.io) |
-| Who to ask + Slack channels | [Slack MCP](https://github.com/shopify-playground/playground-slack-mcp) |
+| Internal references (Vault) | Internal wiki MCP (Shopify-only) |
+| Who to ask + Slack channels | Slack MCP (Shopify-only) |
 | Shopify GitHub references | Web search or GitHub MCP |
 
 If you're not at Shopify, the internal sections will return no results — everything else works for any technical term.
