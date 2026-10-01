@@ -98,6 +98,17 @@ Shopify built a system that automatically routes AI workloads to the cheapest av
 
 ---
 
+## Requirements
+
+- [Claude Code](https://docs.anthropic.com/en/docs/claude-code)
+- Slack and Vault access, for the Shopify-specific context. Optional: without them the skill gives a general explainer.
+
+### Connecting the tools
+
+At Shopify, Tool Gateway is the simplest way to give Claude Code access to Slack, Gmail, Google Drive, Google Calendar, and Vault in one connection. Get your personal setup command from the Tool Gateway portal at https://tool-gateway.shopify.io, run it, and restart Claude Code. Then run `claude mcp list` to confirm `tool-gateway` shows as connected.
+
+Tool Gateway backends switch off after a stretch of inactivity. If the skill reports that a source is unavailable, ask Claude to enable that backend (for example, "enable the vault backend") and try again.
+
 ## Background
 
 Built for communications and non-technical stakeholders who need to follow, brief on, or write about deeply technical concepts without a software engineering background. Useful for:
